@@ -36,7 +36,11 @@ star_wars = media.Movie ("Star Wars",
                         "http://screenrant.com/wp-content/uploads/star-wars-episode-7-image.jpg",
                         "https://youtu.be/vP_1T4ilm8M")
 
+# generate a list 'movies' containing the above instances
+
 movies = [sallskapsresan, avatar, blues_brothers, lord_of_the_rings, woman_in_red, star_wars]
+
+# generate the webpage with trailers
 
 fresh_tomatoes.open_movies_page(movies)
 
